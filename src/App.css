@@ -1,7 +1,7 @@
 .App {
   /* text-align: center; */
-  background-image: url('./Components/6524.png');
-  background-repeat: repeat-y;
+  background: linear-gradient(#28b6b8, #ffc75a);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {useState } from 'react';
 import './App.css';
 import Todo from './Components/Todo';
+import { faListCheck} from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   const [input, setInput] = useState('')
@@ -29,9 +31,10 @@ const deleteBtn = (item) => {
   setTodos(rest);
 }
 
+
   return (
     <div className="App">
-      <h2>Todos List App</h2>
+      <h2>Todos List  <FontAwesomeIcon icon={faListCheck}/> </h2>
       <input className='input'
        onChange={(e) => setInput(e.target.value)}
        value={input}

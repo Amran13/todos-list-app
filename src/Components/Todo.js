@@ -6,7 +6,7 @@ import './Todo.css';
 const Todo = ({todo, deleteBtn}) => {
     return (
         <div className='todo'>
-            <h4> {todo.task} </h4>
+            <h5> {todo.task} </h5>
             <FontAwesomeIcon onClick={() => deleteBtn(todo)} icon={faTrash}/>
         </div>
     );

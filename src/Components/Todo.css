@@ -1,0 +1,13 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-radius: 7px;
+    width: 60%;
+}
+.todo button{
+    height: 20px;
+}
